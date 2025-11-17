@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="#info">About me </a>
+                <a href="#skills"> Skills </a>
+                <a href="#projects">Projects </a>
+            </div>
+            <div class="navbar-right">
+                <a href="#contacts" class="Contact"> Contacts </a>
+            </div>
+        </nav>
+
+        <button class="burger" id="burgerBtn" aria-label="open menu">☰</button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-modal="true">
+            <button class="close-btn" id="closeBtn" aria-label="close menu">✕</button>
+            <a href="#info">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contacts</a>
+        </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-modal="true">
+            <button class="close-btn" id="closeBtn" aria-label="close menu">✕</button>
+            <a href="#info">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contacts</a>
+        </div>
+    </div>
+    </div>
+    <main>
+        <div class="profile fade-in">
+            <div class="info" id="info">
+                <div class="text-block">
+                    <h2>Mykola Ponomar</h2>
+                    <h4> Fronternd-developer</h4>
+                    <p>
+                        I build websites <br>and am working toward becoming a full-stack developer <br> — for now, I’m
+                        focused on the Frontend. <br>
+                    </p>
+                </div>
+                <img class="me" src="images/Me.jpg" alt="Me">
+            </div>
+            <div class="fade-in">
+                <div class="buttons">
+                    <a href="#contacts">
+                        <button class="ContactBtn" тай> Conect to me </button>
+                    </a> <button class="DownloadBtn">Download
+                        resume</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="Skills-block fade-in" id="skills">
+            <h3>Skiils</h3>
+            <div class="Skills-box">
+                <div class=""> <img width="15px" src="images/HTML.jpg" alt=""> HTML</div>
+                <div class=""> <img width="15px" src="images/CSS.jpg" alt=""> CSS</div>
+                <div class=""> <img width="15px" src="images/REACT.jpg" alt=""> REACT</div>
+                <div class=""> <img width="15px" src="images/JS.jpg" alt=""> JS</div>
+            </div>
+
+        </div>
+        <div class="Projects fade-in" id="projects">
+            <h3>Projects</h3>
+            <div class="Projects-block">
+                <div>
+                    <p>
+                        This page 😁
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Todo <br> <a href="https://github.com/Linaizer/ToDo" target="_blank"> Click </a><br>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Static site <i> It`s first my site</i><br> <a href="https://github.com/Linaizer/Static-Site"
+                            target="_blank">Click</a>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        React-router-practice <br> <a href="https://github.com/Linaizer/react-router-practice"
+                            target="_blank">Click</a>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Tic Tac <br> <a href="https://github.com/Linaizer/TicTac" target="_blank">Click</a>
+                    </p>
+                </div>
+                <div>
+                    <p> Better Todo <br> <a href="https://github.com/Linaizer/BetterTodo" target="_blank">Click</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="Footer-block">
+            <div>
+                <p>I'm going to rewrite this site using React and make it more functional.<br> And i learning now react
+                    native,
+                    maybe i`ll write for phones </p>
+            </div>
+            <div id="contacts">
+                <h3> Where you can find me: </h3>
+                <ul class="custom-list">
+                    <li class="Facebook">
+                        <a href="https://www.facebook.com/kolaponomar">Facebook</a>
+                    </li>
+                    <li class="LinkedIn">
+                        <a href="https://www.linkedin.com/in/mykola-ponomar-81717a32b/">LinkedIn</a>
+                    </li>
+                    <li class="GitHub">
+                        <a href="https://github.com/Linaizer">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="script.js"> </script>
+</body>
+
+</html>
