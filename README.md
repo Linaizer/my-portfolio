@@ -32,6 +32,10 @@ Responsive layout
 
 CSS/JS animations
 
+TS
+
+Tailwind css
+
 📌 Features
 
 Fully responsive design
