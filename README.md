@@ -70,15 +70,9 @@ Some of the projects featured in this portfolio:
 
 ✔️ Tic Tac Toe
 
-🎯 Future Plans
+✔️ WeatherApp
 
-Rewrite the website using React
-
-Improve UI/UX and add more interactivity
-
-Enhance animations and code structure
-
-Build a mobile version using React Native
+✔️Shop
 
 📬 Contact Me
 
