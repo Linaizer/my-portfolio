@@ -74,6 +74,8 @@ Some of the projects featured in this portfolio:
 
 ✔️Shop
 
+✔️ Messanger
+
 📬 Contact Me
 
 You can find me here:
