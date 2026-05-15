@@ -1,56 +1,31 @@
-# 🧑‍💻 Mykola Ponomar — Portfolio
+# Mykola Ponomar — Portfolio
 
 Personal developer portfolio built with React + TypeScript + Vite + Tailwind CSS.
 
-## 🔗 Live
-
-[my-portfolio-seven-theta-41.vercel.app](https://my-portfolio-seven-theta-41.vercel.app)
+🔗 **Live:** [my-portfolio-seven-theta-41.vercel.app](https://my-portfolio-seven-theta-41.vercel.app)
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- **React** + **TypeScript**
-- **Vite**
-- **Tailwind CSS v4**
-- **Feature-Sliced Design** (компонентная структура)
-
----
-
-## 📁 Project Structure
-
-src/
-├── components/
-│   ├── Nav.tsx
-│   ├── Hero.tsx
-│   ├── Skills.tsx
-│   ├── Experience.tsx
-│   ├── Projects.tsx
-│   ├── Contact.tsx
-│   ├── Footer.tsx
-│   ├── Section.tsx
-│   └── SkillTag.tsx
-├── data/
-│   ├── projects.ts
-│   ├── skills.ts
-│   └── experience.ts
-├── hooks/
-│   └── useInView.ts
-└── App.tsx
+- React + TypeScript
+- Vite
+- Tailwind CSS v4
+- Feature-Sliced Design
 
 ---
 
-## ✨ Features
+## Features
 
 - Smooth scroll navigation with active section highlight
-- Intersection Observer — секции появляются при скролле
+- Sections animate on scroll via Intersection Observer
 - Copy email to clipboard
 - Responsive layout
 - Custom scrollbar, grid background, glow effect
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/Linaizer/my-portfolio.git
@@ -61,8 +36,8 @@ npm run dev
 
 ---
 
-## 📬 Contact
+## Contact
 
-- Email: ponomar.kolya10@gmail.com
-- LinkedIn: [linkedin.com/in/mykola-ponomar](https://linkedin.com/in/mykola-ponomar)
-- GitHub: [github.com/Linaizer](https://github.com/Linaizer)
+- 📧 [ponomar.kolya10@gmail.com](mailto:ponomar.kolya10@gmail.com)
+- 💼 [linkedin.com/in/mykola-ponomar](https://linkedin.com/in/mykola-ponomar)
+- 🐙 [github.com/Linaizer](https://github.com/Linaizer)
