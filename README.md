@@ -1,24 +1,12 @@
-# 🧑‍💻 Mykola Ponomar — Portfolio
-
+🧑‍💻 Mykola Ponomar — Portfolio
 Personal developer portfolio built with React + TypeScript + Vite + Tailwind CSS.
+🔗 Live
+my-portfolio-seven-theta-41.vercel.app
 
-## 🔗 Live
+🛠 Tech Stack
+CategoryTechnologiesFrontendReact, TypeScript, ViteStylingTailwind CSS v4ArchitectureFeature-Sliced Design
 
-[my-portfolio-seven-theta-41.vercel.app](https://my-portfolio-seven-theta-41.vercel.app)
-
----
-
-## 🛠 Tech Stack
-
-- **React** + **TypeScript**
-- **Vite**
-- **Tailwind CSS v4**
-- **Feature-Sliced Design** (компонентная структура)
-
----
-
-## 📁 Project Structure
-
+📁 Project Structure
 src/
 ├── components/
 │   ├── Nav.tsx
@@ -38,28 +26,20 @@ src/
 │   └── useInView.ts
 └── App.tsx
 
----
+✨ Features
 
-## ✨ Features
+🧭 Smooth scroll navigation with active section highlight
+👁 Intersection Observer — sections animate on scroll
+📋 Copy email to clipboard
+📱 Responsive layout
+🎨 Custom scrollbar, grid background, glow effect
 
-- Smooth scroll navigation with active section highlight
-- Intersection Observer — секции появляются при скролле
-- Copy email to clipboard
-- Responsive layout
-- Custom scrollbar, grid background, glow effect
 
----
-
-## 🚀 Getting Started
-
-```bash
-git clone https://github.com/Linaizer/my-portfolio.git
+🚀 Getting Started
+bashgit clone https://github.com/Linaizer/my-portfolio.git
 cd my-portfolio
 npm install
 npm run dev
-```
-
----
 
 ## 📬 Contact
 
