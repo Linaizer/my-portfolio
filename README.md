@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# 🧑‍💻 Mykola Ponomar — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal developer portfolio built with React + TypeScript + Vite + Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🔗 Live
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[my-portfolio-seven-theta-41.vercel.app](https://my-portfolio-seven-theta-41.vercel.app)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** + **TypeScript**
+- **Vite**
+- **Tailwind CSS v4**
+- **Feature-Sliced Design** (компонентная структура)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📁 Project Structure
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+src/
+├── components/
+│   ├── Nav.tsx
+│   ├── Hero.tsx
+│   ├── Skills.tsx
+│   ├── Experience.tsx
+│   ├── Projects.tsx
+│   ├── Contact.tsx
+│   ├── Footer.tsx
+│   ├── Section.tsx
+│   └── SkillTag.tsx
+├── data/
+│   ├── projects.ts
+│   ├── skills.ts
+│   └── experience.ts
+├── hooks/
+│   └── useInView.ts
+└── App.tsx
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## ✨ Features
+
+- Smooth scroll navigation with active section highlight
+- Intersection Observer — секции появляются при скролле
+- Copy email to clipboard
+- Responsive layout
+- Custom scrollbar, grid background, glow effect
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/Linaizer/my-portfolio.git
+cd my-portfolio
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📬 Contact
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Email: ponomar.kolya10@gmail.com
+- LinkedIn: [linkedin.com/in/mykola-ponomar](https://linkedin.com/in/mykola-ponomar)
+- GitHub: [github.com/Linaizer](https://github.com/Linaizer)
