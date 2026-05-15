@@ -1,0 +1,5 @@
+@import "tailwindcss";
+html, body, #root {
+  background-color: #080c14;
+  color: #e2e8f0;
+}
