@@ -40,4 +40,8 @@ npm run dev
 
 - 📧 [ponomar.kolya10@gmail.com](mailto:ponomar.kolya10@gmail.com)
 - 💼 [linkedin.com/in/mykola-ponomar](https://linkedin.com/in/mykola-ponomar)
+
 - 🐙 [github.com/Linaizer](https://github.com/Linaizer)
+
+- 🐙 [github.com/Linaizer](https://github.com/Linaizer)
+

@@ -39,6 +39,15 @@ export function Contact({ copied, onCopy }: ContactProps) {
               <p className="text-[13px] text-slate-400">github.com/Linaizer</p>
             </div>
           </a>
+          <a href='https://leetcode.com/u/Lina1zz/' target='_blank' rel='noreferrer'
+            className="flex items-center gap-3 px-5 py-4 border border-[#111827] rounded-lg bg-[#0d1117] no-underline hover:border-[#1e3a5f] hover:bg-[#0f172a] transition-all"
+          >
+            <span className='text-lg'>⚡</span>
+            <div>
+              <p className='text-[10px] tracking-[0.15em] uppercase text-blue-500 mb-0.5'>LeetCode</p>
+              <p className='text-[13px] text-slate-400'>https://leetcode.com/u/Lina1zz/</p>
+            </div>
+          </a>
         </div>
       </div>
     </Section>

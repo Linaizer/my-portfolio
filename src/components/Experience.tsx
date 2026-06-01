@@ -14,9 +14,8 @@ export function Experience() {
             <div className="flex justify-between items-start mb-3 flex-wrap gap-2">
               <div>
                 <h3 className="font-display font-bold text-lg text-slate-100 mb-1">Frontend Developer</h3>
-                <p className="text-[13px] text-blue-500">WinWinTravel · Volunteer · Remote</p>
+                <p className="text-[13px] text-blue-500">WinWinTravel · Remote</p>
               </div>
-              <span className="text-[11px] text-slate-500 tracking-wide">Dec 2025 – Feb 2026</span>
             </div>
             <ul className="flex flex-col gap-2 mb-5">
               {experience.map((item, i) => (
