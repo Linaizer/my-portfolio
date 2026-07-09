@@ -15,9 +15,9 @@ export function Hero({ copied, onCopy }: HeroProps) {
         <span className="cursor-dot" />
       </h1>
       <p className="text-sm text-slate-500 max-w-130 leading-relaxed mb-10">
-        Frontend Developer focused on{' '}
-        <span className="text-blue-300">React + TypeScript</span>.
-        {' '}Building scalable UIs with clean architecture — from PostgreSQL schema to polished interface.
+        Full Stack Developer working with{' '}
+        <span className="text-blue-300">React, TypeScript & NestJS</span>.
+        {' '}Building production apps end to end — from PostgreSQL schema to polished interface.
       </p>
       <div className="flex gap-3 flex-wrap">
         <a

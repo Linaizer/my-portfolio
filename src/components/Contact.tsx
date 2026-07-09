@@ -11,7 +11,7 @@ export function Contact({ copied, onCopy }: ContactProps) {
       <div className="pb-28">
         <p className="text-[10px] tracking-[0.25em] uppercase text-blue-500 mb-2">05 // contact</p>
         <h2 className="font-display font-bold text-4xl text-slate-100 mb-3">Let's Work Together</h2>
-        <p className="text-sm text-slate-500 mb-12">Open to remote Junior Frontend or Fullstack positions.</p>
+       <p className="text-sm text-slate-500 mb-12">Open to remote Full Stack positions.</p>
         <div className="flex flex-col gap-3 max-w-120">
           <button
             onClick={onCopy}
@@ -45,7 +45,7 @@ export function Contact({ copied, onCopy }: ContactProps) {
             <span className='text-lg'>⚡</span>
             <div>
               <p className='text-[10px] tracking-[0.15em] uppercase text-blue-500 mb-0.5'>LeetCode</p>
-              <p className='text-[13px] text-slate-400'>https://leetcode.com/u/Lina1zz/</p>
+              <p className='text-[13px] text-slate-400'>leetcode.com/u/Lina1zz</p>
             </div>
           </a>
         </div>
