@@ -18,6 +18,7 @@ export const experience: Job[] = [
       'Integrated Google Drive API for folder management, file uploads, and DOCX generation',
       'Built role-based interfaces (Field Workers, Managers, Vendors, Admins) with EN / ES / PT support',
       'Packaged for Android via Capacitor; configured Docker, GitHub Actions CI/CD, and Nginx deployment',
+      'Deployed to production on Google Cloud (Compute Engine, Docker, Nginx, HTTPS) and debugged production-only issues, including a secure-context Web Crypto failure',
     ],
     skills: ['React', 'TypeScript', 'NestJS', 'PostgreSQL', 'Redis', 'BullMQ', 'Docker', 'Capacitor'],
   },

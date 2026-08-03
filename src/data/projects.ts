@@ -10,11 +10,11 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: 'Messenger Lize',
-    desc: 'Fullstack real-time messenger built from scratch. Designed DB schema, built REST API + WebSocket server, implemented JWT auth, architected frontend with FSD.',
-    stack: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'WebSockets', 'Prisma', 'FSD'],
+    desc: 'Fullstack real-time messenger with an integrated AI assistant. Built REST API + WebSocket server, JWT auth, and FSD frontend. The AI part features token-streaming chat over SSE, conversation context, and a RAG pipeline (chunking, embeddings, vector search with pgvector) for context-grounded answers.',
+    stack: ['React', 'TypeScript', 'Fastify', 'PostgreSQL', 'WebSockets', 'Prisma', 'RAG', 'pgvector', 'LLM', 'FSD'],
     github: 'https://github.com/Linaizer/Messenger-Lize',
     live: null,
-    type: 'Fullstack',
+    type: 'Fullstack · AI',
   },
   {
     title: 'E-Commerce Shop',
