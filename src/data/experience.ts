@@ -8,7 +8,7 @@ export interface Job {
 export const experience: Job[] = [
   {
     title: 'Full Stack Developer',
-    meta: 'TCB Fiber (USA) · Contract · Remote',
+    meta: 'TCB Fiber · Contract · Remote',
     bullets: [
       'Built a production field documentation platform: offline-first PWA, native Android app, and real-time admin dashboard',
       'Built offline-first job submission via outbox pattern with automatic retry on reconnect (IndexedDB)',
